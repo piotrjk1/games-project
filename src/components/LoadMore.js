@@ -14,7 +14,8 @@ const LoadMore = () => {
             <button onClick={loadMoreGames}>
                 {loaded ? 'Hide' : 'LoadMore'}
             </button>
-            {loaded ? <GameList gamesData={extraGames} /> : ''}
+            {loaded ? <GameList gamesData={extraGames}
+            additionalMessage={'- even more games!'} /> : '' }
         </div>
     );
 };

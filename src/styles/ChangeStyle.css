@@ -1,0 +1,12 @@
+.change-style{
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.change-style.active{
+    background-color: lightblue;
+    color: white;
+}
