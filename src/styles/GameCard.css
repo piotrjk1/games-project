@@ -1,0 +1,11 @@
+.game-card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+.game-card:hover{
+    background-color: #e0e0e0;
+}
