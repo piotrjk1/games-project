@@ -9,6 +9,8 @@ import LoadMore from './components/LoadMore';
 import ChangeStyle from './components/ChangeStyle'
 import FavoriteGameForm from "./components/FavoriteGameForm";
 import ClassComponent from "./components/ClassComponent";
+import Clock from './components/Clock';
+import ClockFunction from './components/ClockFunction'
 import Footer from './components/Footer';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <ClassComponent />
         <FavoriteGameForm />
         <ChangeStyle />
+        <Clock />
+        <ClockFunction />
         <Footer />
     </div>
   );
