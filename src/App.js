@@ -11,7 +11,13 @@ import FavoriteGameForm from "./components/FavoriteGameForm";
 import ClassComponent from "./components/ClassComponent";
 import Clock from './components/Clock';
 import ClockFunction from './components/ClockFunction'
+import Counter from './components/Counter';
+import CounterFunction from './components/CounterFunction';
+import PokemonListAPI   from "./components/PokemonListAPI";
 import Footer from './components/Footer';
+import GameClickButton from './components/GameClickButton';
+import UpgradedGameButton from './components/UpgradedGameButton';
+import GameMainSection from "./components/GameMainSection";
 
 function App() {
   return (
@@ -22,9 +28,15 @@ function App() {
       <LoadMore />
         <ClassComponent />
         <FavoriteGameForm />
+        <PokemonListAPI />
         <ChangeStyle />
         <Clock />
         <ClockFunction />
+        <Counter />
+        <CounterFunction />
+        <GameClickButton />
+        <UpgradedGameButton />
+        <GameMainSection />
         <Footer />
     </div>
   );
